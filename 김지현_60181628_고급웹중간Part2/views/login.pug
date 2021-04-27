@@ -1,0 +1,21 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title 로그인
+  style
+        include login.css
+#main
+  #main_top
+  #main_left
+    img#logo(src='./img/meeting.png')
+    span#logo_text1 조
+    span#logo_text2 추첨
+    span#logo_text3 시스템
+  form#form(action='/admit', method='post')
+    span#id_text 아이디
+    input#id_input(type='text', name='login')
+    br
+    span#pwd_text 비밀번호
+    input#pwd_input(type='password', name='password')
+    br
+    button#login_btn(type='submit') 로그인

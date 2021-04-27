@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>조 추첨</title>
+    <link rel="stylesheet" href="./user.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="main_top">
+            <span id="main_top_text">조 추첨</span>
+            <a href="login" id="logout"><img src="./img/logout.png" id="logout_img" alt="로그아웃"></a>
+        </div>
+        <div id="main_left">
+            <img id="professor_img" src="img/professor.jpg">
+            <span id="text_pro_name">김명민 교수님</span>
+            <span id="text_course_name">캡스톤디자인1</span>
+            <span id="text_course_num">HED01401</span>
+        </div>
+        <div id="column_std_info">
+            <span id="text_std_info">학생 정보</span>
+        </div>
+        <div id="column_std_list">
+            <span id="text_std_list">학생 명단</span>
+        </div>
+        <div id="std_info">
+            <form id="student_form">
+                <span id="name_text">이름</span>
+                <input type="text" id="name_input" name="name"><br>
+                <span id="num_text">학번</span>
+                <input type="text" id="num_input" name="stNum"><br>
+                <button type="submit" id="btn_std_info">추가</button>
+            </form>
+        </div>
+        <div id="std_list">
+        </div>
+        <div id="std_count">
+            <form id="studentNum_form">
+                <span id="text_std_count">조 인원 수</span>
+                <input type="number" id="input_std_count" name="number"><br>
+                <button type="submit" id="btn_std_count">확인</button>
+            </form>
+        </div>
+        <button id="btn_draw" type="button" onclick="location.href='draw.html' ">추첨</button>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./user.js"></script>
+
+</body>
+
+</html>

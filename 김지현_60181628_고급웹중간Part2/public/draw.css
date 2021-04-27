@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#main {
+    position: absolute;
+    width: 1536px;
+    height: 720px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+}
+#main_top {
+    overflow: visible;
+    position: absolute;
+    width: 1215px;
+    height: 100px;
+    left: 320px;
+    top: 0px;
+    background-color: rgba(126,158,233,1);
+    text-align: center;
+}
+#main_top_text {
+    position: relative;
+    overflow: visible;
+    top: 20px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#main_left {
+    overflow: visible;
+    position: absolute;
+    width: 320px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(126,158,233,1);
+    text-align: center;
+}
+#logo {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 120px;
+    overflow: visible;
+}
+#replay {
+    position: relative;
+    overflow: visible;
+    width: 290px;
+    height: 80px;
+    top: 625px;
+    background-color: rgba(171,192,240,1);
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(84,127,224,1);
+}
+#main_center {
+    overflow: auto;
+    position: absolute;
+    text-align: center;
+	width: 1150px;
+	height: 530px;
+	left: 355px;
+	top: 150px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(126,158,233,1);
+}
+#team_list {
+    position: absolute;
+    overflow: visible;
+    width: 965px;
+    height: 470px;
+    left: 455px;
+    top: 180px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(126,158,233,1);	
+}
+#name_list {
+    position: relative;
+    overflow: visible;
+    left: 10px;
+    top: 15px;
+    /* top: 10px; */
+    text-align: left;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    color: rgba(0,0,0,1);
+}
+#span {
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(84,127,224,1);	
+}

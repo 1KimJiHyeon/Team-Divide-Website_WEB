@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>조 추첨 결과</title>
+    <link rel="stylesheet" href="./draw.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="main_top">
+            <span id="main_top_text">조 추첨 결과</span>
+        </div>
+        <div id="main_left">
+            <button id="replay" type="button" onclick="location.href='user.html' ">다시 하기</button>
+            <img id="logo" src="img/meeting.png">
+        </div>
+        <div id="main_center">
+            <div id="result"></div>
+            <span id="span"></span>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./draw.js"></script>
+
+</body>
+
+</html>

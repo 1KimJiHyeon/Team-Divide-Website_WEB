@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#main {
+    position: absolute;
+    width: 1536px;
+    height: 720px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+}
+#main_top {
+    overflow: visible;
+    position: absolute;
+    width: 1215px;
+    height: 100px;
+    left: 320px;
+    top: 0px;
+    background-color: rgba(126,158,233,1);
+    text-align: center;
+}
+#main_top_text {
+    position: relative;
+    overflow: visible;
+    top: 20px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#logout {
+    position: absolute;
+    overflow: visible;
+    top: 5px;
+    left: 1180px;
+}
+#logout_img {
+    width: 30px;
+    height: 30px;
+}
+#main_left {
+    overflow: visible;
+    position: absolute;
+    width: 320px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(126,158,233,1);
+    text-align: center;
+}
+#professor_img {
+    position: relative;
+    width: 250px;
+    height: 380px;
+    top: 140px;
+    overflow: visible;
+}
+#text_pro_name {
+    position: absolute;
+    overflow: visible;
+    top: 535px;
+    left: 34px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}	
+#text_course_name {
+    position: absolute;
+    overflow: visible;
+    top: 615px;
+    left: 60px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#text_course_num {
+    position: absolute;
+    overflow: visible;
+    top: 655px;
+    left: 90px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(255,255,255,1);
+}
+
+#column_std_info {
+    position: absolute;
+    overflow: visible;
+    width: 300px;
+    height: 60px;
+    left: 490px;
+    top: 130px;
+    background-color: rgba(171,192,240,1);
+    border: 5px solid rgba(126,158,233,1);
+    text-align: center;
+}
+#text_std_info {
+    position: relative;
+    overflow: visible;
+    top: 8px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(84,127,224,1);
+}
+#column_std_list {
+    position: absolute;
+    overflow: visible;
+    width: 600px;
+    height: 60px;;
+    left: 785px;
+    top: 130px;
+    background-color: rgba(171,192,240,1);
+    border: 5px solid rgba(126,158,233,1);
+    text-align: center;
+}
+#text_std_list {
+    position: relative;
+    overflow: visible;
+    top: 8px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(84,127,224,1);
+}
+#std_info {
+    position: absolute;
+    overflow: visible;
+    width: 300px;
+    height: 320px;
+    left: 490px;
+    top: 185px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(126,158,233,1);
+}
+#name_text {
+    position: relative;
+    overflow: visible;
+    left: 60px;
+    top: 25px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(126,158,233,1); 
+}
+#name_input {
+    overflow: visible;
+    position: relative;
+    width: 180px;
+    height: 40px;
+    left: 15px;
+    top: 60px;
+    font-size: 20px;
+    padding-left: 5px;
+    background-color: rgba(255,255,255,1);
+    border: 3px solid rgba(126,158,233,1);
+}
+#num_text {
+    position: relative;
+    overflow: visible;
+    left: 60px;
+    top: 70px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(126,158,233,1);
+}
+#num_input {
+    overflow: visible;
+    position: relative;
+    width: 180px;
+    height: 40px;
+    left: 15px;
+    top: 105px;
+    font-size: 20px;
+    padding-left: 5px;
+    background-color: rgba(255,255,255,1);
+    border: 3px solid rgba(126,158,233,1);
+}
+#btn_std_info {
+    position: relative;
+    overflow: visible;
+    width: 180px;
+    height: 45px;
+    left: 61px;
+    top: 145px;
+    background-color: rgba(126,158,233,1);
+    color: rgba(84,127,224,1);
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+#std_list {
+    position: absolute;
+    overflow: auto;
+    width: 600px;
+    height: 320px;;
+    left: 785px;
+    top: 185px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(126,158,233,1);
+    text-align: center;
+}
+#std_count {
+    position: absolute;
+    overflow: visible;
+    width: 895px;
+    height: 80px;
+    left: 490px;
+    top: 501px;
+    background-color: rgba(171,192,240,1);
+    border: 5px solid rgba(126,158,233,1);
+}
+#text_std_count {
+    position: relative;
+    overflow: visible;
+    left: 275px;
+    top: 15px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(84,127,224,1);
+}
+#input_std_count {
+    position: relative;
+    overflow: visible;
+    width: 173px;
+    height: 50px;
+    left: 280px;
+    top: 12px;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(126,158,233,1);
+}
+#btn_std_count {
+    position: relative;
+    overflow: visible;
+    width: 55px;
+    height: 50px;
+    left: 560px;
+    top: -38px;
+    background-color: rgba(126,158,233,1);
+    border: 5px solid rgba(126,158,233,1);
+    color: rgba(84,127,224,1);
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+#btn_draw {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 80px;
+    left: 680px;
+    top: 615px;
+    background-color: rgba(171,192,240,1);
+    color: rgba(84,127,224,1);
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#main {
+    position: absolute;
+    width: 1536px;
+    height: 720px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+}
+#main_top {
+    overflow: visible;
+    position: absolute;
+    width: 1215px;
+    height: 100px;
+    left: 320px;
+    top: 0px;
+    background-color: rgba(126,158,233,1);
+    text-align: center;
+}
+#main_left {
+    overflow: visible;
+    position: absolute;
+    width: 320px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(126,158,233,1);
+}
+#logo {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 130px;
+    overflow: visible;
+    left: 30px;
+}
+
+#logo_text1 {
+    position: absolute;
+    overflow: visible;
+    top: 420px;
+    left: 110px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgba(255,255,255,1);
+}
+#logo_text2 {
+    position: absolute;
+    overflow: visible;
+    top: 520px;
+    left: 85px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgba(255,255,255,1);
+}
+#logo_text3 {
+    position: absolute;
+    overflow: visible;
+    top: 620px;
+    left: 60px;
+    white-space: nowrap;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgba(255,255,255,1);
+}
+#id_text {
+    position: absolute;
+    overflow: visible;
+    left: 700px;
+    top: 170px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(126,158,233,1);
+}
+#id_input {
+    overflow: visible;
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    left: 700px;
+    top: 225px;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: rgba(232,240,254,1);
+    border: 5px solid rgba(171,192,240,1);
+}
+#id_input:focus {
+    overflow: visible;
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    left: 700px;
+    top: 225px;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(171,192,240,1);
+}
+#pwd_text {
+    position: absolute;
+    overflow: visible;
+    left: 700px;
+    top: 350px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(126,158,233,1);
+}
+#pwd_input {
+    overflow: visible;
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    left: 700px;
+    top: 405px;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: rgba(232,240,254,1);
+    border: 5px solid rgba(171,192,240,1);
+}
+#pwd_input:focus {
+    overflow: visible;
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    left: 700px;
+    top: 405px;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: rgba(255,255,255,1);
+    border: 5px solid rgba(171,192,240,1);
+}
+#login_btn {
+    position: relative;
+    overflow: absolute;
+    width: 290px;
+    height: 80px;
+    left: 840px;
+    top: 555px;
+    background-color: rgba(171,192,240,1);
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(84,127,224,1);
+}	
